@@ -105,6 +105,7 @@ const Chat: React.FC = () => {
         role: 'assistant',
         content: data.choices[0].message.content,
       };
+      //@ts-ignore
       setMessages((prev) => [...prev, assistantMessage]);
     } catch (error) {
       console.error('Error:', error);
