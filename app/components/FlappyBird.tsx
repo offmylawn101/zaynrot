@@ -168,7 +168,7 @@ const FlappyBird: React.FC = () => {
         {/* Start screen */}
         {!gameStarted && (
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50">
-            <h1 className="text-4xl font-bold text-white mb-4">Flappy Bird</h1>
+            <h1 className="text-4xl font-bold text-white mb-4">Flappy Steven</h1>
             <p className="text-xl text-white mb-8">Click to start</p>
           </div>
         )}
