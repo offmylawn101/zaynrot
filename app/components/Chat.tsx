@@ -118,7 +118,7 @@ const Chat: React.FC = () => {
     <div className="flex flex-col h-[600px] w-full max-w-2xl mx-auto bg-white rounded-lg shadow-lg">
       {/* Chat Header */}
       <div className="p-4 border-b border-gray-200">
-        <h2 className="text-xl font-semibold text-gray-800">Chat Assistant</h2>
+        <h2 className="text-xl font-semibold text-gray-800">ZaynAI</h2>
       </div>
 
       {/* Messages Container */}
